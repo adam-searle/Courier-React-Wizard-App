@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "PrincessSofia-Regular";
+  src: local("PrincessSofia-Regular"),
+    url(./fonts/PrincessSofia-Regular.ttf) format("truetype");
+}
+body {
+  font-family: "PrincessSofia-Regular", sans-serif;
+  font-size: 11px;
+}
+
+span {
+  font-family: "PrincessSofia-Regular", sans-serif;
+}
+
 .App {
   display: flex;
   justify-content: center;
@@ -15,15 +29,15 @@
 }
 
 .spellbook-image {
-  max-width: 100%;
+  max-width: 850px;
 }
 
 .spells-wrapper {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 80%;
   position: absolute;
-  top: 40%;
+  top: 44%;
   transform: translateY(-50%);
 }
 
@@ -41,6 +55,7 @@
   background: transparent;
   cursor: pointer;
   margin: 10px;
+  padding-left: 35px;
 }
 .spell:hover {
   background-color: #eec14569;
@@ -62,10 +77,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 15px;
 }
 
 .spell-wrapper p {
   margin-left: 20px;
   max-width: 150px;
-  font-size: 9px;
 }

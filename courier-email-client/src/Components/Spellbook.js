@@ -1,12 +1,12 @@
 // Spellbook.js
 import React from "react";
 import Spell from "./Spell";
-import spellbookImage from "../spellbook.png";
-import spell1Image from "../spell1.png";
-import spell2Image from "../spell2.png";
-import spell3Image from "../spell3.png";
-import spell4Image from "../spell4.png";
-import spell5Image from "../spell5.png";
+import spellbookImage from "../imgs/spellbook.png";
+import spell1Image from "../imgs/spell1.png";
+import spell2Image from "../imgs/spell2.png";
+import spell3Image from "../imgs/spell3.png";
+import spell4Image from "../imgs/spell4.png";
+import spell5Image from "../imgs/spell5.png";
 
 const Spellbook = () => {
   return (
